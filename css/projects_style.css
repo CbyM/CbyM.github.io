@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding:0;
+  background-color: black;
+
+}
+
+
+.nav-bar {
+  margin: 20px;
+  margin-bottom: 150px;
+  color: #ccc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  .nav-bar a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .nav-bar a:hover {
+    color:rgb(224, 165, 0);
+  }
+  .nav-bar li {
+    display: block;
+    padding: 20px;
+    font-size: 2.2em;
+  } 
+
+
+  
+.projects-container {
+text-align: center;
+}
+
+p {
+  color: #ccc;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 10px;
+}
+
+img {
+  margin:20px 0;
+}
+
+h1 {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.unity  {
+  width: 700px;
+  height: 20%;
+
+}
+
+.vuforia {
+  width: 200px;
+  height: 20%;
+  align-items: center;
+}
+
+.flappy {
+  width: 700px;
+  height: 20%;
+}
+
+.neat {
+  width: 700px;
+  height: 20%;
+}
+.maroz {
+  width: 700px;
+  height: 20%;
+}
+
+.maroz-2 {
+  width: 700px;
+  height: 20%;
+}
+.hotel {
+  width: 700px;
+  height: 20%;
+}
+
+.hotel-2 {
+  width: 700px;
+  height: 20%;
+}
+.scrapper {
+  width: 800px;
+  height: 20%;
+}
+.django-1 {
+  width: 700px;
+  height: 20%;
+}
+
+.django-2 {
+  width: 700px;
+  height: 20%;
+}
+

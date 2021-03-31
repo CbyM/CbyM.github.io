@@ -43,15 +43,15 @@ function bot() {
           "Doing well, thanks for asking"
         ],
       //2
-      ["Worked in Public Relations, Event and Communication Management for a total of 5 years. Worked at a Law firm for 1 year. Worked in an NGO with kids in risk of social exclusion for 6 months. Currently freelancing. "],
+      ["  "],
       //3 SKILLS
-      ["Discrete mathematics, communication, languages, applied psychology, philosophycal fundamentals, critical thinking, team working and conflict resolution "],
+      [""],
       //4 INTERESTS
-      ["Reading, playing CTF challenges, learning new skills, trading, doing sports and hanging out with people "],
+      [" "],
       //5 Presentation
-      ["My name is Pablo Misirov, born in 1996. Currently studying UX Design and InfoSec."],
+      [""],
       //6
-      ["European School of Brussels | International Communication Management | Event and Media Entertainment Managament | UX Design "],
+      ["],
       //7
       ["Goodbye and Have a good day.", "Wish you a good day", "Have a good day", "Hope seeing you again."],
 

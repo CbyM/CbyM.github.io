@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+
+
+#header {
+position: absolute;
+width: 100%;
+
+}
+
+
+.row-0 {
+  padding: 10px;
+  /* background-color: aqua; */
+}
+
+.nav-bar {
+  margin: 20px;
+  margin-bottom: 50px;
+  color: #ccc;
+  font-size: 0.7em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: coral; */
+}
+  .nav-bar a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .nav-bar a:hover {
+    color:rgb(224, 165, 0);
+  }
+  .nav-bar li {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px 100px;
+
+    text-align: center;
+    font-size: 2.2em;
+  } 
+  .nav-bar ul {
+    text-align: center;
+}
+
+
+
+
+.bot-container {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  display: block;
+  width: 50%;
+  height: 200px;
+  position: relative;
+  border-style: none inset;
+
+  /* background-color: blue; activate for debugging */
+} 
+
+
+
+#bot-response {
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.7em;
+  color: rgb(255, 255, 255);
+
+  /* background-color: blueviolet; */
+}
+
+
+#bot-question {
+  margin: auto;
+  text-align: center;
+
+  /* background-color: cornflowerblue; */
+}
+.content  p{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 20px;
+  font: 1em sans-serif;
+  color: rgb(23, 162, 172);
+
+  /* background-color: cyan; */
+}
+
+input[type=text] {
+  width: 200px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 10px 8px 10px 10px;
+  transition: width 0.4s ease-in-out;
+
+  text-align: center;
+
+}
+
+input[type=text]:focus {
+  width: 25%;
+}
+
+
+/* .typewriter {
+  text-align: center;
+  font-size: 1em
+} */
+.footer {
+  position: fixed;
+  display: inline-block;
+  bottom: 10px;
+  left: 44%;
+  font-size: 0.9em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(41, 149, 182);
+  background-color:rgba(41, 149, 182, 0.096);
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #080808;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+
+
+.grow {
+  color: #ffffff;
+  opacity: 0.7;
+  border-radius: 10px;
+  height: 35px;
+  width: 175px;
+  margin:50px auto;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+  font: 20px;
+}
+
+.grow:hover {
+  height: 145px;
+}
+.grow ul {
+  margin-top: 10px;
+  
+}
+.grow li {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+
+/* ABOUT section */
+
+.about-container {
+  background-color: rgba(204, 204, 204, 0.582);
+  height: 500px;
+  display: flex;
+  flex-flow: row nowrap;
+
+}
+
+.about {
+  display: inline-block;
+  text-align: left;
+  line-height: 30px;
+  margin: 20px;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1em ;
+  color: #000000;
+  font-weight:440;
+  
+} .about h2 {
+  margin-bottom: 10px;
+}
+
+
+.image {
+  display: inline-block;
+  width: 25%;
+  margin:auto;
+
+} .image img {
+  width: 80%;
+  margin: 10px;
+  border-style:hidden;
+}
+
+
+
+.languages {
+  display: inline-flex;
+  margin-top: 20px;
+  width: 70px;
+  height: 70px;
+
+} .languages img {
+  margin: 20px;
+  padding-left:50px;
+} 
+.skills {
+  display: inline-flex;
+  margin-top: 30px;
+  width: 70px;
+  height: 70px;
+}.skills img {
+  margin: 15px;
+  padding-left:50px;
+} 
+
+
+/* PROJECTS section */
+
+.projects-container {
+  background-color: rgba(204, 204, 204, 0.582);
+  height: 500px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.project-1  {
+  margin-top: 6%;
+  width: 50%;
+  height: 50%;
+  background:url("../img/Screenshot\ \(124\).png") center;
+  background-size: cover;
+}
+.project-2 {
+  margin-top: 6%;
+  width: 50%;
+  height: 50%;
+  background:url("../img/maroz.png") center;
+  background-size: cover;
+}
+.project-3 {
+  margin-top: 6%;
+  width: 50%;
+  height: 50%;
+  background:url("../img/Screenshot\ \(123\).png");
+  background-size: cover;}
+.project-4 {
+  margin-top: 6%;
+  width: 50%;
+  height: 50%;
+  background:url("../img/django.png") center;
+  background-size: cover;}
+
+.project-description {
+  font-size: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin:50px auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(5, 5, 5);
+}
+
+button {
+  text-align: center;
+  border:none;
+  width: 100px;
+  padding:5px;
+  margin-left:40%;
+} button:hover {
+  background-color: lawngreen;
+}

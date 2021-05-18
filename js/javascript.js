@@ -11,7 +11,7 @@ let shipParameters = {
 		var pfuel = document.getElementById('fuel');
 		var fuelLeft = this.fuel;
 		console.log(fuelLeft);
-		pfuel.innerHTML = fuelLeft + ' %';
+		pfuel.innerHTML = fuelLeft + ' % fuel';
 		this.fuel -= 1;
 		if(this.fuel === 0){
 			var x = document.getElementById('fuel');

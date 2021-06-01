@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/javascript.js"></script> <!-- defer to load after page is rendered -->
+    <title>Space Shuttle | Dashnoard</title>
+</head>
+
+
+<body>
+
+
+    <div class="container">
+        
+        <div class="demo-wrap">
+            <div class="demo-content">
+              <h3>With love by PM</h3>
+              <h3>Programming II<br>Challenge I</h3>
+              <h6>All content is only used for educational purposes only.</h6>
+              <h6></h6>
+            </div>
+
+
+        <div class="grid-container">
+
+            
+                <div class="box">
+                    <div class="card">
+                        <p id="fuel"></p>
+                        <p id="gravity"></p>
+                        <p id="food"></p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="card">
+                        <p id="throttle"></p>
+                        <p id="distance"></p>
+                        <p id="water"></p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="card">
+                        <p id="speed"></p>
+                        <p id="atmosphere"></p>
+                        <p id="toilet"></p>
+
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="card">
+                        <p id="acceleration"></p>
+                        <p id="medical"></p>
+                    </div>
+                </div>
+
+
+            <div id="ConverterPopup" class="popup">
+
+                <div class="popup-content">
+                    <span class="close">&times;</span>
+                    (start typing)
+                    <div class="g-con">
+                        <h4>Weight gravity converter:</h4>
+                        <form name="conv" action="" id="conv" >	
+                            <span id="update"></span>
+                            <p><input type="text" name="tb1" onkeyup="gConvert()"/></p>
+                            <input type="hidden" name="total" value="3.69" />
+                        </form>
+                    </div>
+                    <br>
+
+                    <div class="miles-con">
+                        <h4>Mars miles to Earth:</h4>
+                        <form name="conv2" action="" id="conv2" >	
+                            <span id="update2"></span>
+                            <p><input type="text" name="tb2" onkeyup="meConvert()"/></p>
+                            <input type="hidden" name="total2" value="6.3781" />
+                        </form>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+
+            <div class="footer-box-1">
+                Ship Parameters<br>
+                <button id="Parameters-Dashboard" onclick="a()">Show Param</button>
+            </div>
+            <div class="footer-box-2">
+                Ships Environment<br>
+                <button id="Environment-Dashboard" onclick="b()">Show Env</button>
+            </div>
+            <div class="footer-box-3">
+                Supplies-Dashboard<br>
+                <button id="Supplies-Dashboard" onclick="c()">Show Suppl</button>
+            </div>
+            <div class="footer-box-4">
+                Metrics-Dashboard<br>
+                <button id="Metrics-Dashboard" >Show Conv</button>
+            </div>
+
+    </div>
+
+
+</div>
+</body>
+</html>

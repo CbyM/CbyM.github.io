@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: 'Nixie One', cursive;
+	background-image: url("../img/mars.jpg") ;
+    background-size:100%;
+}
+
+h1 {
+	text-shadow:3px red;  
+	color: rgba(236,165,0,1);
+	font-size: 30px;
+}
+
+#theme{
+    margin: auto;
+    text-align: center;
+    background-image: url("../img/spaceship.jpg");
+    background-position: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    }
+    button{
+        padding: 7px;
+        font-size: 1em;
+        border-radius: 5px;
+        border: none;
+        margin: 10px;
+    }
+    button:hover {
+        background-color:greenyellow ;
+    }
+
+#am-pm{
+    margin-top: 30px;
+    font-size: 70px;
+
+}
+
+.container { 
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tube {	
+    background-color: rgba(3, 3, 3, 0.651);
+	font-size: 150px;
+	color: rgba(0,0,0,0.3);
+	width: 100px;
+	height: 226px;
+	text-align: center;
+	float: left;
+	border: 1px solid white;
+	border-radius: 50px 50px 0 0;
+	padding-top: 30px;
+}
+
+.tube p:before {
+   content: "123456789";
+   letter-spacing: -90px;
+
+}
+
+.tube p {
+	text-align: center;
+	margin-left: -33px;
+}
+
+.tube div {
+	position: relative;
+	top: -167px;
+
+	 text-shadow: 0px 0px 5px red;  
+	color: rgba(236,165,0,1);
+}
+
+.separator {
+	float: left;
+	text-shadow: 0px 0px 5px red;  
+	color: rgba(236,165,0,1);
+	font-size: 76px;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin-top: 67px;
+}
+
+
+.base {
+    background-color: rgba(3, 3, 3, 0.849);
+	border: 1px solid white;
+	clear: both;
+	height: 110px;
+	margin-top: 16px;
+	float: left;
+	width: 88%;
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+
+#author{
+    font-size: 12px;
+}
+
+
+.container:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+
+
+
